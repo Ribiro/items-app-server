@@ -2,9 +2,11 @@
 Items-App-Server is a Django Rest Framework API that serves the <a href="https://github.com/Ribiro/items-app-client">Items-App-Client</a> front end developed using Vue JS.
 To execute the api, follow these procedures:
 
-1. Clone the repository in your local machine:
+1. Clone the repository in your local machine and navigate to the project directory:
 ```
 git clone https://github.com/Ribiro/items-app-server
+
+cd items-app-server
 
 ```
 
