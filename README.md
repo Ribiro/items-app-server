@@ -50,12 +50,12 @@ If for some reson step no. 5 fails, try these:
 rm db.sqlite3
 python manage.py makemigrations
 python manage.py migrate users
-python manage.py items_app
+python manage.py migrate items_app
 python manage.py migrate
 
 
 ```
-NB: The purpose here is to ensure all migrationsa re executed, otherwise the server won't run.
+NB: The purpose here is to ensure all migrations are executed, otherwise the server won't run.
 
 
 6. Once the migrations are done, run the server:
